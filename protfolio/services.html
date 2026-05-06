@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Services</title>
+    <link rel="stylesheet" href="style.css" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: black;
+      color: white;
+      line-height: 1.6;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      color: #ccc;
+    }
+
+    .services {
+      padding: 50px 0;
+    }
+
+    .service-box {
+      background-color: #f9860296;
+      padding: 30px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      transition: 0.3s ease;
+    }
+
+    .service-box:hover {
+      transform: translateY(-5px);
+      background-color: #f98602;
+    }
+
+    .service-box h2 {
+      margin-bottom: 15px;
+      color: white;
+    }
+
+    .service-box ul {
+      margin-top: 10px;
+      padding-left: 20px;
+    }
+
+    .service-box ul li {
+      margin-bottom: 8px;
+    }
+
+    .cta {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .cta a {
+      text-decoration: none;
+      background-color: #f98602;
+      color: white;
+      padding: 15px 30px;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 15px;
+      transition: 0.3s;
+    }
+
+    .cta a:hover {
+      background-color: white;
+      color: black;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #aaa;
+      font-size: 14px;
+    }
+
+    @media (min-width: 768px) {
+      .grid {
+        display: flex;
+        gap: 20px;
+      }
+
+      .service-box {
+        flex: 1;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+    <div class="nav">
+        <a href="#" class="logo">Wesley</a>
+
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="services.html" class="active">Services</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </div>
+  <header class="container">
+    <h1>My Services</h1>
+    <p>I help brands grow with modern websites and creative design.</p>
+  </header>
+
+  <section class="services container">
+    <div class="grid">
+
+      <!-- Web Development -->
+      <div class="service-box">
+        <h2>Web Development</h2>
+        <p>I create fast, responsive, and professional websites tailored to your business.</p>
+
+        <ul>
+          <li>Custom website development</li>
+          <li>Mobile responsive design</li>
+          <li>SEO-friendly structure</li>
+          <li>Fast loading speed</li>
+          <li>Website maintenance</li>
+        </ul>
+      </div>
+
+      <!-- Graphics Design -->
+      <div class="service-box">
+        <h2>Graphics Design for Brands</h2>
+        <p>I design visuals that make your brand stand out and look professional.</p>
+
+        <ul>
+          <li>Logo design & branding</li>
+          <li>Social media graphics</li>
+          <li>Flyers & posters</li>
+          <li>Business cards</li>
+          <li>Brand identity design</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Let’s Work Together</h2>
+    <p>Have a project in mind? Let’s build something amazing.</p>
+    <a href="contact.html">Contact Me</a>
+  </section>
+
+  <footer>
+    <p>© 2026 Your Name. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

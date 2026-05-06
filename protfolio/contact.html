@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: black;
+      color: white;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      color: #ccc;
+    }
+
+    .contact-box {
+      background-color: #f9860296;
+      padding: 40px;
+      border-radius: 10px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    input, textarea {
+      margin-bottom: 15px;
+      padding: 15px;
+      border: none;
+      border-radius: 5px;
+      outline: none;
+      font-size: 16px;
+    }
+
+    textarea {
+      resize: none;
+      height: 120px;
+    }
+
+    button {
+      background-color: #f98602;
+      color: white;
+      border: none;
+      padding: 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: white;
+      color: black;
+    }
+
+    .alt-contact {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .alt-contact a {
+      display: inline-block;
+      margin-top: 10px;
+      text-decoration: none;
+      background-color: #25D366;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+
+    .alt-contact a:hover {
+      background-color: white;
+      color: black;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #aaa;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+    <div class="nav">
+        <a href="#" class="logo">Wesley</a>
+
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="services.html" class="active">Services</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </div>
+  <header class="container">
+    <h1>Contact Me</h1>
+    <p>Let’s talk about your project</p>
+  </header>
+
+  <section class="container">
+    <div class="contact-box">
+
+     <form action="https://formspree.io/f/xgodygka" method="POST">
+  
+  <input type="text" name="name" placeholder="Your Name" required>
+
+  <input type="email" name="email" placeholder="Your Email" required>
+
+  <textarea name="message" placeholder="Your Message" required></textarea>
+
+  <button type="submit">Send Message</button>
+
+</form>
+
+      <div class="alt-contact">
+        <p>Or message me directly on WhatsApp</p>
+        <a href="https://wa.me/2348052262417" target="_blank">
+          Chat on WhatsApp
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Oyinki Wesley. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
